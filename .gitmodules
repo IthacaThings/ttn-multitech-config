@@ -1,0 +1,3 @@
+[submodule "ttn-multitech-cm"]
+	path = ttn-multitech-cm
+	url = https://github.com/IthacaThings/ttn-multitech-cm

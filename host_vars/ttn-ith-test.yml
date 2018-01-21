@@ -1,0 +1,30 @@
+---
+
+# Hostname.  Start with ttn-ORG
+hostname: ttn-ith-test
+
+# Configure Networking
+eth0_type: dhcp
+
+# Define this to use an ssh tunnel
+ssh_tunnel_remote_port: 15022
+
+# Actual address or hostname of the gateway
+ansible_host: ttn-ith-test.home.honig.net
+ansible_port: 22
+
+# Ensure mlinux version
+mlinux_version: 3.3.13
+
+# Descriptive location of the gateway
+description: "TTNI Test MTCDT-210L @ Jeff's house"
+
+# Location, use -1 for altitude if not known
+latitude: 42.517288
+longitude: -76.710183
+altitude: 265
+
+forwarder_variant: poly
+forwarder_version: 2.1-r5
+
+

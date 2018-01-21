@@ -1,8 +1,9 @@
 [test]
-ttn-org-example
+ttn-ith-test
+ttn-ith-test2
+ttn-ith-test3
 
 [production]
-ttn-org-example-2
 
 [conduits]
 
@@ -14,10 +15,8 @@ test
 
 [all:vars]
 
-[ssh_host]
-jumphost.example.com
-
-
+[jumphosts]
+jump1.ttni.tech
 
 
 
